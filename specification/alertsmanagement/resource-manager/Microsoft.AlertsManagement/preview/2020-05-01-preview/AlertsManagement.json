@@ -943,7 +943,11 @@
       "in": "query",
       "required": true,
       "enum": [
+<<<<<<< Updated upstream
         "2020-05-01-preview"
+=======
+        "2019-05-05-preview"
+>>>>>>> Stashed changes
       ],
       "x-ms-enum": {
         "name": "api-version",
@@ -1689,7 +1693,17 @@
           "enum": [
             "AlertCreated",
             "StateChange",
+<<<<<<< Updated upstream
             "MonitorConditionChange"
+=======
+            "MonitorConditionChange",
+            "SeverityChange",
+            "ActionRuleTriggered",
+            "ActionRuleSuppressed",
+            "ActionsTriggered",
+            "ActionsSuppressed",
+            "ActionsFailed"
+>>>>>>> Stashed changes
           ],
           "x-ms-enum": {
             "name": "AlertModificationEvent"
@@ -2023,7 +2037,12 @@
           "description": "type of target scope",
           "enum": [
             "ResourceGroup",
+<<<<<<< Updated upstream
             "Resource"
+=======
+            "Resource",
+            "Subscription"
+>>>>>>> Stashed changes
           ],
           "x-ms-enum": {
             "name": "ScopeType",
